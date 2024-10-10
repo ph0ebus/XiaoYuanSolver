@@ -62,4 +62,4 @@ def answer_write(arg):
                              cwd=cwd)
         else:
             ctx.log.info("尚不支持此答案：" + i)
-        time.sleep(0.34)  # 写太快会识别出错，目前这个还算稳定，大部分时间都能正常跑
+        time.sleep(0.35)  # 写太快会识别出错，目前这个还算稳定，大部分时间都能正常跑
