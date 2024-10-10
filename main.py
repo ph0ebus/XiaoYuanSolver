@@ -44,7 +44,7 @@ def answer_write(arg):
     status = 0
     time.sleep(12.4)  # 没想到更好的开局检测方案，不过每局延时差不多，这个延迟刚刚好
     cwd = r'F:\Program Files\Netease\MuMu Player 12\shell'  # adb 所在目录
-    swipe = r'.\adb.exe shell input swipe %d %d %d %d 1 '  # 模拟滑动
+    swipe = r'.\adb.exe shell input swipe %d %d %d %d 0 '  # 模拟滑动
     jitter = round(random.random(), 2)
     for i in arg:
         ctx.log.info("正在作答：" + i)
@@ -62,6 +62,4 @@ def answer_write(arg):
                              cwd=cwd)
         else:
             ctx.log.info("尚不支持此答案：" + i)
-        time.sleep(0.35)   # 写太快会识别出错，目前这个还算稳定，大部分时间都能正常跑
-
-
+        time.sleep(0.34)  # 写太快会识别出错，目前这个还算稳定，大部分时间都能正常跑

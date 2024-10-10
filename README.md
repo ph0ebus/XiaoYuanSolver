@@ -6,6 +6,9 @@
 
 采用mitm抓包获取题目和答案信息，然后adb shell模拟鼠标滑动输入。随便写的shi山代码，各位看官看个乐子就好
 
+> [!IMPORTANT]
+> 仅供学习交流使用，请勿用于非法用途
+
 ## Preview
 
 ![alt](./preview.gif)
