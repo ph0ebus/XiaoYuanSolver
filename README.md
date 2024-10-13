@@ -1,5 +1,8 @@
 # XiaoYuanSolver
 
+> [!IMPORTANT]
+> 由于小猿口算已更新，无力维护，项目已废弃，可移步其他师傅的仓库看看
+
 ![Language](https://img.shields.io/badge/language-python-blue.svg)
 
 小猿口算 pk一把梭脚本
